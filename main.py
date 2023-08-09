@@ -3,7 +3,6 @@ This File was only used for testing the trained
 Neural Network and has no function in the Project
 """
 
-
 import pickle
 from DataProcess import Data
 import random
