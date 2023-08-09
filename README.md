@@ -35,4 +35,14 @@ The final product of this project is written in LoanGUI.py. I created a GUI wher
 Although the project works extremly well for the data provided, if the user inputs numbers that are far out of the range of the range of inputs in the data provided, then the network can have some difficulty predicting logically. In order to create an Intellegent Loan Machine that could be used on a much wider pool of applicants, I would need a much larger data set to train the Network with. Because personal banking information is so limited on the internet, this was the largest one I could find. 
 
 
+## Example User Input Screen
 
+<img width="665" alt="Screen Shot 2023-08-09 at 1 40 59 PM" src="https://github.com/jacksonbrewer3/IntelligentLoanMachine/assets/126095064/b6baf02b-b8a6-4cbf-ab5a-0f5375054efd">
+
+## Example Success Output Screen
+
+<img width="594" alt="Screen Shot 2023-08-09 at 1 31 44 PM" src="https://github.com/jacksonbrewer3/IntelligentLoanMachine/assets/126095064/a2aa97ef-960a-4413-ab80-bc42032ab1bd">
+
+## Example Denial Screen
+
+<img width="584" alt="Screen Shot 2023-08-09 at 1 39 28 PM" src="https://github.com/jacksonbrewer3/IntelligentLoanMachine/assets/126095064/8f2725ef-2ee9-4a02-b0c3-fdf0b7880ce2">
