@@ -36,7 +36,6 @@ Although the project works extremly well for the data provided, if the user inpu
 
 
 ## Example User Input Screen
-<img width="556" alt="Screen Shot 2023-08-09 at 1 48 16 PM" src="https://github.com/jacksonbrewer3/IntelligentLoanMachine/assets/126095064/9fc74d0b-37a8-4c7c-8efa-736303fe016d">
 
 <img width="665" alt="Screen Shot 2023-08-09 at 1 40 59 PM" src="https://github.com/jacksonbrewer3/IntelligentLoanMachine/assets/126095064/b6baf02b-b8a6-4cbf-ab5a-0f5375054efd">
 
@@ -46,4 +45,4 @@ Although the project works extremly well for the data provided, if the user inpu
 
 ## Example Denial Screen
 
-
+<img width="556" alt="Screen Shot 2023-08-09 at 1 48 16 PM" src="https://github.com/jacksonbrewer3/IntelligentLoanMachine/assets/126095064/9fc74d0b-37a8-4c7c-8efa-736303fe016d">
