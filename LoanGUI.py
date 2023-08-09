@@ -438,15 +438,5 @@ def on_button_click():
 button = tk.Button(frame1, text="Submit Information", command=on_button_click)
 button.pack()
 
-
-
-
-
-
-
-
-
 # Start the GUI event loop
 root.mainloop()
-
-print(inputs)
