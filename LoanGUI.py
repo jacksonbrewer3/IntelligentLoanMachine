@@ -43,7 +43,7 @@ will decide to give them a loan or not.
 training_data = pd.read_csv(r'/Users/jacksonbrewer/Downloads/loan-train.csv')
 
 # Intro Label
-intro_text = " Welcome to BrewerBank! If you are here for a loan, please answer the following " \
+intro_text = " Welcome to the Bank! If you are here for a loan, please answer the following " \
             "questions to determine your eligibility."
 label = tk.Label(frame1, text=intro_text, wraplength=500, anchor='center', font=("Times New Roman", 16))
 label.pack(fill='x')
@@ -201,7 +201,7 @@ Question #8
 loan_amount_input_var = tk.StringVar() # Holds the input from the dropdown
 
 # 8th Question: Loan Amount
-text = "What is the loan you want to receive?"
+text = "What is the loan you want to receive? (In thousands)"
 label = tk.Label(frame1,text=text, font=("Times New Roman", 14))
 label.pack(side=tk.TOP, anchor=tk.W)
 
@@ -425,7 +425,7 @@ def on_button_click():
     blank_frame.pack()
 
     if output > .5:
-        text = f"Congratulations! You are eligible for a loan from BrewerBank. Your impressive model " \
+        text = f"Congratulations! You are eligible for a loan from the Bank. Your impressive model " \
                f"score of {output} was enough to be approved."
         label = tk.Label(frame2, text=text, wraplength=500, anchor='center', font=("Times New Roman", 16))
         label.pack(anchor='center')
