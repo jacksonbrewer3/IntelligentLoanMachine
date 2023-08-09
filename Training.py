@@ -2,10 +2,8 @@ from NeuralNetwork import Network
 from DataProcess import Data
 
 """
-This Project is designed to emulate an intelligent loan decision system. 
-I will import anonymous credit data from a bank with identifying information and whether or not they would receive a loan.
-I will then use a Neural Network to be the framework for the system and train it with this data.
-The Network will then be able to take information about a loan applicant and decide if they get a loan or not
+This file will take the data from the the loan-train.csv and will train the Network so that 
+it is able to take information about a loan applicant and decide whether or not they receive a loan
 """
 class Trained_Network:
 
