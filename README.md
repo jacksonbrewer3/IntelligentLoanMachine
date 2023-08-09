@@ -9,7 +9,7 @@ Neural Networks are able to find complex relationships between input and output 
 
 The data set I used is: https://www.kaggle.com/datasets/vikasukani/loan-eligible-dataset
 
-# Data Processing 
+## Data Processing 
 This Kaggle Data Set includes both a training set and a testing set. As seen in the DataProcess.py file I used the Pandas library to download both training and testing sets in order to prepare them to be fed into the Network. 
 
 1) First I removed the ID column. 
@@ -20,7 +20,7 @@ This Kaggle Data Set includes both a training set and a testing set. As seen in 
 
 4) Now all the data was cleaned and ready to be fed through the Network in order to train it. 
 
-# Training the Network
+## Training the Network
 After training the data, it was time to train the Neural Network. The Training.py file creates a new Neural Network and feeds the newly cleaned training data through it. I then used Python's pickle process, as seen in PickledNetwork.py, in order to save an instance of the trained Network so that it did not have to be trainied every time the final code was run. 
 
 As seen in the Training.py file, the Network is created with 18 input neurons, 1 output neuron and 1 hidden layer of 15 neurons. Due to the nature of the problem the number of input and output neurons were not subject to change. But changing the number of hidden layers and neurons in each layer of a Neural Network will change its effectivness. After testing different Network structures, the version that proved to be most effective was one with only 1 hidden layer holding 15 neurons. Any more layers or neurons and the program would have run unecessarily long. Any fewer and it would be less accurate. 
@@ -29,7 +29,7 @@ In order to test its effectivness I fed each applicant through the trained netwo
 
 Here is a link to the outputs of the Network: https://docs.google.com/document/d/13br9rXtId7BwNRDQL9J0BWboZSKL25iR3iwKAsWEI14/edit?usp=sharing
 
-# Conclusion
+## Conclusion
 The final product of this project is written in LoanGUI.py. I created a GUI where the user can input their own information which then will be fed through the trained network and the program will return if they are ellible for a loan or not. 
 
 Although the project works extremly well for the data provided, if the user inputs numbers that are far out of the range of the range of inputs in the data provided, then the network can have some difficulty predicting logically. In order to create an Intellegent Loan Machine that could be used on a much wider pool of applicants, I would need a much larger data set to train the Network with. Because personal banking information is so limited on the internet, this was the largest one I could find. 
