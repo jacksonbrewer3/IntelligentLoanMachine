@@ -30,9 +30,9 @@ In order to test its effectiveness I fed each applicant through the trained netw
 Here is a link to the outputs of the Network: https://docs.google.com/document/d/13br9rXtId7BwNRDQL9J0BWboZSKL25iR3iwKAsWEI14/edit?usp=sharing
 
 ## Conclusion
-The final product of this project is written in LoanGUI.py. I created a GUI where the user can input their own information which then will be fed through the trained network and the program will return if they are ellible for a loan or not. 
+The final product of this project is written in LoanGUI.py. I created a GUI where the user can input their own information which then will be fed through the trained network and the program will return if they are eligible for a loan or not. 
 
-Although the project works extremly well for the data provided, if the user inputs numbers that are far out of the range of the range of inputs in the data provided, then the network can have some difficulty predicting logically. In order to create an Intellegent Loan Machine that could be used on a much wider pool of applicants, I would need a much larger data set to train the Network with. Because personal banking information is so limited on the internet, this was the largest one I could find. 
+Although the project works extremely well for the data provided, if the user inputs numbers that are far out of the range of the range of inputs in the data provided, then the network can have some difficulty predicting logically. In order to create an Intelligent Loan Machine that could be used on a much wider pool of applicants, I would need a much larger data set to train the Network with. Because personal banking information is so limited on the internet, this was the largest one I could find. 
 
 
 ## Example User Input Screen
