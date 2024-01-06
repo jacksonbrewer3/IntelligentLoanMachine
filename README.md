@@ -21,7 +21,7 @@ This Kaggle Data Set includes both a training set and a testing set. As seen in 
 4) Now all the data was cleaned and ready to be fed through the Network in order to train it. 
 
 ## Training the Network
-After training the data, it was time to train the Neural Network. The Training.py file creates a new Neural Network and feeds the newly cleaned training data through it. I then used Python's pickle process, as seen in PickledNetwork.py, in order to save an instance of the trained Network so that it did not have to be trained every time the final code was run. 
+After cleaning the data, it was time to train the Neural Network. The Training.py file creates a new Neural Network and feeds the newly cleaned training data through it. I then used Python's pickle process, as seen in PickledNetwork.py, in order to save an instance of the trained Network so that it did not have to be trained every time the final code was run. 
 
 As seen in the Training.py file, the Network is created with 18 input neurons, 1 output neuron and 1 hidden layer of 15 neurons. Due to the nature of the problem the number of input and output neurons were not subject to change. But changing the number of hidden layers and neurons in each layer of a Neural Network will change its effectiveness. After testing different Network structures, the version that proved to be most effective was one with only 1 hidden layer holding 15 neurons. Any more layers or neurons and the program would have run unnecessarily long. Any fewer and it would be less accurate. 
 
